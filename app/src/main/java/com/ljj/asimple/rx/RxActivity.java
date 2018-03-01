@@ -17,4 +17,8 @@ public class RxActivity extends BaseActivity {
     public void startRxJust(View view) {
         RxSimple.just();
     }
+
+    public void startRxJFrom(View view) {
+        RxSimple.from();
+    }
 }
