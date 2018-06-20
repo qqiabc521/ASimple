@@ -19,6 +19,15 @@
 
         <activity android:name=".rx.RxActivity"
             android:label="RxActivity"/>
+
+        <activity android:name=".rx.RxPluginActivity"
+            android:label="RxPluginActivity"/>
+
+        <activity android:name=".ui.UIActivity"
+            android:label="UIActivity"/>
+
+        <activity android:name=".dispatchtouchevent.DispatchTouchEventActivity"
+            android:label="DispatchTouchEventActivity"/>
     </application>
 
 </manifest>
