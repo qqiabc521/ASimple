@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/ASimple.iml" filepath="$PROJECT_DIR$/.idea/ASimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/ASimple.iml" filepath="$PROJECT_DIR$/ASimple.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxcallback/rxcallback.iml" filepath="$PROJECT_DIR$/rxcallback/rxcallback.iml" />
     </modules>
   </component>
 </project>
