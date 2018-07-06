@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ljj.asimple.dispatchtouchevent.DispatchTouchEventActivity;
+import com.ljj.asimple.image.ImageActivity;
 import com.ljj.asimple.rx.RxActivity;
 import com.ljj.asimple.rx.RxPluginActivity;
 import com.ljj.asimple.ui.UIActivity;
@@ -32,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void startTouchEventSimple(View view) {
         startActivity(new Intent(this, DispatchTouchEventActivity.class));
+    }
+
+    public void startImageSimple(View view) {
+        startActivity(new Intent(this, ImageActivity.class));
     }
 }

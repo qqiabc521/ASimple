@@ -28,6 +28,9 @@
 
         <activity android:name=".dispatchtouchevent.DispatchTouchEventActivity"
             android:label="DispatchTouchEventActivity"/>
+
+        <activity android:name=".image.ImageActivity"
+            android:label="ImageActivity"/>
     </application>
 
 </manifest>
