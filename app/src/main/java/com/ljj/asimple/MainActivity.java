@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ljj.asimple.dispatchtouchevent.DispatchTouchEventActivity;
+import com.ljj.asimple.flowview.FlowViewActivity;
 import com.ljj.asimple.image.ImageActivity;
 import com.ljj.asimple.rx.RxActivity;
 import com.ljj.asimple.rx.RxPluginActivity;
@@ -37,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void startImageSimple(View view) {
         startActivity(new Intent(this, ImageActivity.class));
+    }
+
+    public void startFlowViewSimple(View view) {
+        startActivity(new Intent(this, FlowViewActivity.class));
     }
 }
